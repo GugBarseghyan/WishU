@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.3s;
+}
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    z-index: 1000;
+}
+.changedheader h1{
+    font-size: 20px;
+}
+.changedheader a{
+    font-size: 10px;
+}
+.changedheader .menu a{
+    font-size: 18px;
+}
+header, footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #303030;
+    color: #ffee30;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: #ffee30;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.5;
+}
+header .loginpt a{
+    font-size: 15px;
+}
+footer .menu{
+    display: flex;
+    flex-direction: column;
+}
+footer .menu a{
+    margin: 3px;
+}
+footer .social a{
+    margin: 3px;
+    font-size: 30px;
+}
+main{
+    height: 2000px;
+}

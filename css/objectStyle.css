@@ -1,0 +1,51 @@
+header{
+    background-color: #202020;
+    text-align: center;
+    padding: 20px;
+    color: yellow;
+    text-align: center;
+}
+.objectInContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+ .Object{
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
+ .Object img{
+    width: 250px;
+}
+.btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #0000;
+    border: 2px solid #222;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.4s
+}
+.btn:hover{
+    background-color: #222;
+    color: white;
+}
+.aboutObject{
+    text-align: center;
+    width: 100%;
+}
+.aboutObject img{
+    width: 200px;
+}
+.error404{
+    text-align: center;
+}
+.error404 h1{
+    font-size: 60px;
+}
